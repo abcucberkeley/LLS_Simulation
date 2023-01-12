@@ -289,7 +289,7 @@ generateData = true;
 %% load 3D detection PSF and DitheredxzPSFCrossSection 
 
 if generatePSF
-    fn = [rt, 'RW_3d/', 'Det_PSF_OTF_3D_510_NA1p0_px_38p346nm_RichardsWolf.mat'];
+    fn = [codeRT, 'RW_PSFs/', 'Det_PSF_OTF_3D_510_NA1p0_px_38p346nm_RichardsWolf.mat'];
     if ~exist(fn, 'file')
         error(['The 3D detection PSF file %s does not exist, please follow the instruction', ...
             'in github repo to download the file or check if it is in the right location!'], fn);
