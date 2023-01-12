@@ -14,7 +14,7 @@ addpath(genpath(codeRT));
 
 rt = '/clusterfs/fiona/Data/LLS_simulation_202208/';
 if ~exist(rt, 'dir')
-    rt = sprintf('%s/../LLS_simulation/', codeRT);
+    rt = sprintf('%s/../LLS_simulation_results/', codeRT);
     mkdir(rt);
 end
 
