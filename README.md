@@ -6,6 +6,6 @@ Lattice light sheet simulation and stripe pattern deconvolution simulation code 
 ## Usage
 The code is tested with Matlab R2022b. In matlab, run **simulation.m** and select a light sheet for simulation. 
 
-The simulation of lattice light sheet generation is self-contained within the repo. To run the stripe pattern deconvolution simulation, the theoretical 3D detection PSF file can be downloaded from [this link](https://www.dropbox.com/s/a5gaz1tdj7g6ozm/Det_PSF_OTF_3D_510_NA1p0_px_38p346nm_RichardsWolf.mat?dl=0). After downloading the file, create a folder with name "RW_3d" under the simulation result root directory (by default, **"LLS_simulation_results"** outside the code folder) and put the file in this folder. Then the stripe pattern deconvolution simulation should work smoothly. 
+The simulation of lattice light sheet generation is self-contained within the repo. To run the stripe pattern deconvolution simulation, the theoretical 3D detection PSF file can be downloaded from [this link](https://www.dropbox.com/s/a5gaz1tdj7g6ozm/Det_PSF_OTF_3D_510_NA1p0_px_38p346nm_RichardsWolf.mat?dl=0). After downloading the file, put it to the folder "RW_PSFs" under the code directory. Then the stripe pattern deconvolution simulation should work smoothly. 
 
 If there are questions or issues, please feel free to contact Eric Betzig (betzige@janelia.hhmi.org) or Srigokul Upadhyayula (sup@berkeley.edu). 
