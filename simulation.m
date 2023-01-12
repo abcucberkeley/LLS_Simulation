@@ -1083,7 +1083,7 @@ bgfactor = 0;
 save16bit = true;
 % RW path for corresponding channels
 RWFn = {
-        '/clusterfs/fiona/Gokul/RW_PSFs/PSF_RW_515em_128_128_101_100nmSteps.tif'
+        [codeRT, '/RW_PSFs/PSF_RW_515em_128_128_101_100nmSteps.tif']
         };
 
 % source description
