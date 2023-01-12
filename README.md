@@ -7,7 +7,9 @@ Lattice light sheet simulation and stripe pattern deconvolution simulation code 
 
 The code can be cloned from the source code with command:
 
-```git clone --recurse-submodules https://github.com/abcucberkeley/LLS_Simulation.git```
+```bash
+git clone --recurse-submodules https://github.com/abcucberkeley/LLS_Simulation.git
+```
 
 or downloaded from https://github.com/abcucberkeley/LLS_Simulation/releases/download/v1.0.0/LLS_Simulation.tgz
 
